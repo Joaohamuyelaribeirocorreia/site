@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de arquivos</title>
+</head>
+<body>
+    <h1>Visualizador de arquivos</h1>
+    <input type="file" id="message-input" accept=".hy, .py, .js, .html">
+    <div id="js-viewer" style="border: 1px solid #000; padding: 10px;"></div>
+
+    <script>
+        const jsInput = document.getElementById('message-input');
+        const jsViewer = document.getElementById('js-viewer');
+
+        jsInput.addEventListener('change', function () {
+            const file = jsInput.files[0];
+            //alert(file.type)
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    jsViewer.textContent = e.target.result.split('\n', 4); // Exibe a primeira linha
+                };
+                reader.readAsText(file, "utf-8");
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "null": {
+    "messages": [
+      {
+        "id": "null-1724973674308",
+        "text": "hello",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:21:14.308Z",
+        "file": null,
+        "read": false
+      },
+      {
+        "id": "null-1724973699215",
+        "text": "",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:21:39.215Z",
+        "file": {
+          "name": "01 Afro House MIX 2023 ! Vais Gostar.mp3",
+          "type": "audio/mpeg",
+          "url": "blob:http://localhost:3000/c74578f4-2e4d-408d-8ff4-097a596e9b0e"
+        },
+        "read": false
+      }
+    ],
+    "users": []
+  },
+  "chat1": {
+    "messages": [
+      {
+        "id": "chat1-1724974261429",
+        "text": "oi",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:31:01.457Z",
+        "file": null,
+        "read": false
+      },
+      {
+        "id": "chat1-1724974284816",
+        "text": "",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:31:24.816Z",
+        "file": {
+          "name": "Alec_Benjamin_-_Let_Me_Down_Slowly_(Letra)(128k).mp3",
+          "type": "audio/mpeg",
+          "url": "blob:http://localhost:3000/025a4833-2a80-42ba-a122-6b39a2e0caed"
+        },
+        "read": false
+      },
+      {
+        "id": "chat1-1724974533691",
+        "text": "ouve isso",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:35:33.691Z",
+        "file": {
+          "name": "Alec_Benjamin_-_Let_Me_Down_Slowly_(Letra)(128k).mp3",
+          "type": "audio/mpeg",
+          "url": "blob:http://localhost:3000/971b8093-aeb2-44bc-80e3-cef2adbff8aa"
+        },
+        "read": false
+      },
+      {
+        "id": "chat1-1724974624039",
+        "text": "assiste isso",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:37:04.039Z",
+        "file": {
+          "name": "Anderson_Mário_-_Waka_Waka_(Vídeo_Oficial)(360p).mp4",
+          "type": "video/mp4",
+          "url": "blob:http://localhost:3000/964e3e31-f5c6-43eb-ace4-fd5d7e4cadd1"
+        },
+        "read": false
+      },
+      {
+        "id": "chat1-1724974775756",
+        "text": "é maneiroooooooo!",
+        "sender": "Hamuyela",
+        "timestamp": "2024-08-29T23:39:35.756Z",
+        "file": null,
+        "read": false
+      },
+      {
+        "id": "ad0bbd869f9eab9f8b8b527ed8c4c252",
+        "text": "ola",
+        "timestamp": "2024-08-30T00:06:54.156Z",
+        "sender": "Hamuyela",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "2d6118ff94734d2e30d4ff74145ef5b3",
+        "text": "",
+        "timestamp": "2024-08-30T00:07:04.397Z",
+        "sender": "Hamuyela",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/4b37918d21491e172f7fabdab649524c.mp4",
+          "type": "video/mp4",
+          "name": "Anderson_MaÌrio_-_Waka_Waka_(ViÌdeo_Oficial)(360p).mp4"
+        }
+      }
+    ],
+    "users": []
+  }
+}

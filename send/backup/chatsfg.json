@@ -1,0 +1,763 @@
+{
+  "chat1": {
+    "messages": [
+      {
+        "id": "f3e321836c70742b0f58ca5ee7287ed9",
+        "text": "texto introduzido manualmente",
+        "sender": "jok",
+        "timestamp": "2024-09-02T17:16:34.887Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "7e5a6a2b63ebfb59ab373505d7860a8a",
+        "sender": "jok",
+        "text": "texto introduzido manualmente..........",
+        "timestamp": "2024-09-02T17:21:34.935Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e3acdd8c09ce54268a44c05c0dbad845",
+        "text": "hello",
+        "timestamp": "2024-09-02T17:43:26.193Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4a12bf66b0009e4a744300d11ccde0bf",
+        "text": "",
+        "timestamp": "2024-09-02T17:43:59.643Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/2e9f75acb2ea7a6f02b9c900a196cb68.mp4",
+          "type": "video/mp4",
+          "name": "Como_descobrir_a_senha_do_WI-FI_pelo_CMD(1080p).mp4"
+        }
+      },
+      {
+        "id": "15644d876a75d84c074e2f56674ebffb",
+        "text": "sds",
+        "timestamp": "2024-09-02T17:55:46.119Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "a36e08edac4473084c003540fac690d1",
+        "text": "aaaaaaaaaaaaaas",
+        "timestamp": "2024-09-02T17:55:53.643Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "f3d7da1327df9eeda41eb5553c92c9c2",
+        "text": "aaaaaaaaaaaaaaaa",
+        "timestamp": "2024-09-02T17:55:57.145Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "09ae89c5773047899c529e7dfb02eb35",
+        "text": "ssssss",
+        "timestamp": "2024-09-02T17:56:06.652Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/a5fcfd7344f7be547492a1a2265dc095.mp4",
+          "type": "video/mp4",
+          "name": "Como_usar_Node.js_com_MySQL_(360p).mp4"
+        }
+      },
+      {
+        "id": "cee43866d6d1a880cf91fc73ba6d5a92",
+        "text": "ola",
+        "timestamp": "2024-09-02T20:35:25.000Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4f4f12a1828435a84a149c00854c964b",
+        "text": "",
+        "timestamp": "2024-09-02T20:35:36.757Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/d08b828005dd472f3a904435b5439e11.mp4",
+          "type": "video/mp4",
+          "name": "Anderson_Mário_-_Waka_Waka_(Vídeo_Oficial)(360p).mp4"
+        }
+      },
+      {
+        "id": "a8ae97df191eb3db534ef3cd2ea465dc",
+        "text": "heçç",
+        "timestamp": "2024-09-02T21:00:39.383Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "c63719e9f492e53c81bb244ca16039ec",
+        "text": "",
+        "timestamp": "2024-09-02T21:01:03.098Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/fb377d3935f9d9fae5aa3ac6ef1e7c4e.mp4",
+          "type": "video/mp4",
+          "name": "Como_descobrir_a_senha_do_WI-FI_pelo_CMD(1080p).mp4"
+        }
+      },
+      {
+        "id": "69b7151685959a973d42b170c05e0e8b",
+        "text": "tyt",
+        "timestamp": "2024-09-02T21:03:06.766Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "eed0e64cdf7d7535de9ead50e95a1de9",
+        "text": "",
+        "timestamp": "2024-09-02T21:08:48.696Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/dcd87be0384578bb83fb13c6f6fb5b09.mp4",
+          "type": "video/mp4",
+          "name": "Como_saber_a_senha_do_WiFi_com_linguagem_de_programação__Python_(720p).mp4"
+        }
+      },
+      {
+        "id": "a6e55a168c89d4a07ae6196acadb7e79",
+        "text": "ela fez",
+        "timestamp": "2024-09-02T21:26:32.221Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "c0efa650eb31f1326916dcdcf62c30d5",
+        "text": "aq",
+        "timestamp": "2024-09-02T21:27:15.369Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "33e6fbf2df2c12a8e40daf9c203fd9e6",
+        "text": "colo",
+        "timestamp": "2024-09-03T20:32:16.025Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "f71c22d373554ee61c06d2a975364ef1",
+        "text": "ui",
+        "timestamp": "2024-09-03T20:32:22.586Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "fbf85c3fe4725814ab47beb49200101f",
+        "text": "uu",
+        "timestamp": "2024-09-03T20:33:04.218Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "cdd75829a377751fea28499af19bd029",
+        "text": "yyu",
+        "timestamp": "2024-09-03T20:33:06.422Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "53c5291f0517c6239edb5c00684f7643",
+        "text": "uuy",
+        "timestamp": "2024-09-03T20:33:16.950Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "c318d6443b4d4d2273ff696c81d51a6f",
+        "text": "we",
+        "timestamp": "2024-09-03T20:34:43.536Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e6a2742d711c13da9916319ebc7b88c3",
+        "text": "ioi",
+        "timestamp": "2024-09-03T20:35:16.325Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "14ee319ebdd1220c31e4cad2a245e13b",
+        "text": "787",
+        "timestamp": "2024-09-03T20:35:38.726Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "0c09b683bddf5b7b14712228e82789d5",
+        "text": "787",
+        "timestamp": "2024-09-03T20:35:45.247Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "9a3d8b16a568eef37cdd6d84cf702f06",
+        "text": "uiu",
+        "timestamp": "2024-09-03T20:36:01.094Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "1529a9760d7aa56234b77d70db8918f5",
+        "text": "ui",
+        "timestamp": "2024-09-03T20:36:05.870Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e933b723276cf661c79839ac9164ad46",
+        "text": "ik",
+        "timestamp": "2024-09-03T20:36:29.533Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e0395d20d1b13071770afa6f5ddc56cf",
+        "text": "veja como programar um circuito com javascript no Proto",
+        "timestamp": "2024-09-03T20:41:48.236Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/7d313a9483c30c83dc0c681fb74056a6.mp4",
+          "type": "video/mp4",
+          "name": "PROTO_-_circuit_simulator___JAVA_SCRIPT___PT(1080p).mp4"
+        }
+      },
+      {
+        "id": "11740562ca447d98554b83dc84a14266",
+        "text": "dddbggg",
+        "timestamp": "2024-09-05T23:57:33.624Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "562547819053b24cdb0a8a5e266c3e45",
+        "text": "uyiuu",
+        "timestamp": "2024-09-05T23:58:14.960Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "86182aedde37886e65caf4aefce12ca3",
+        "text": "lkl",
+        "timestamp": "2024-09-05T23:58:22.884Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "103564e2a556020130c5e87d88b33394",
+        "text": "sddds",
+        "timestamp": "2024-09-05T23:59:29.881Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "050389635ac1f1f3b1454ad28ee99c4d",
+        "text": "sdsd",
+        "timestamp": "2024-09-06T00:00:45.610Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "eaff0d3f51e3fa5924de7bc74b0e73d4",
+        "text": "ddsasas",
+        "timestamp": "2024-09-06T00:01:42.910Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "bac2f15b7cc971cd98bb9ec5bcba0109",
+        "text": "ddf",
+        "timestamp": "2024-09-06T00:05:39.275Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "b78b82f6d7f8a4ab53d4e86f2c9c89a3",
+        "text": "ghgfg",
+        "timestamp": "2024-09-06T00:05:46.382Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "da23a82f741b30c27bf666cb2f42fdb0",
+        "text": "fdfdfdfdf",
+        "timestamp": "2024-09-06T00:08:24.749Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "49b349baa6e093440ca40ee61649b9ae",
+        "text": "ssssssssssssssssssdds",
+        "timestamp": "2024-09-06T00:08:56.049Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e41d35d0c02e618808a3eb769378298b",
+        "text": "ddsd",
+        "timestamp": "2024-09-06T00:09:06.555Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "d4dbcff557e51596f68c5048721aad5a",
+        "text": "ssdsd",
+        "timestamp": "2024-09-06T00:09:10.476Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "f5bd41a8e51ba55c8bc3d89169da1b95",
+        "text": "dfdfdas",
+        "timestamp": "2024-09-06T00:09:58.389Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "b5a910df1e7ff188766a25ec3ebc030f",
+        "text": "dadds",
+        "timestamp": "2024-09-06T00:10:04.087Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "893852d1e1f48916e8e3a38bd91072ff",
+        "text": "como",
+        "timestamp": "2024-09-06T00:12:10.108Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "daa26b0ba57a5441a31242ac909f4fc5",
+        "text": "y97967979798",
+        "timestamp": "2024-09-06T00:12:50.292Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "7e78c5474df5e71e8c2b2a255bdcfb88",
+        "text": "trtyttytyt",
+        "timestamp": "2024-09-06T00:13:01.063Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "319b0f7bcf13f46bfcc966aaaf55a234",
+        "text": "vccvc",
+        "timestamp": "2024-09-06T00:14:11.286Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "9588f6a9e4cb0698f8a0dc5e497e6ea4",
+        "text": "hhjhj",
+        "timestamp": "2024-09-06T00:16:43.567Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4accddab3eea8f27f90640bd5365812e",
+        "text": "jkjkk",
+        "timestamp": "2024-09-06T00:16:49.492Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "b30629b87604674598b4137cb65ebe56",
+        "text": "jkjkjk",
+        "timestamp": "2024-09-06T00:16:59.409Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "f334d6b9bcc2a730f023513bddb8523b",
+        "text": "fs",
+        "timestamp": "2024-09-06T00:17:17.384Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "44e89e3a199e0be763a7293308361994",
+        "text": "sffd",
+        "timestamp": "2024-09-06T00:17:23.944Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "878e6663c35ced3e9df37a55c8f8c226",
+        "text": "ghghghgh",
+        "timestamp": "2024-09-06T00:17:50.322Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4bfa885d0981fefa4c3f8c529e71d4d3",
+        "text": "hffhh",
+        "timestamp": "2024-09-06T00:17:56.133Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "10b4679b1f72d42bad69872d6804751e",
+        "text": "gggfgfg",
+        "timestamp": "2024-09-06T00:23:18.694Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "da4232fd1ea437d94c677194d752215a",
+        "text": "jgjgjgg",
+        "timestamp": "2024-09-06T00:25:00.030Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "5de0331f0e9c6ba0522ece81350e6176",
+        "text": "olá comom=",
+        "timestamp": "2024-09-06T00:29:53.745Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "c50b550a7d78e93130e9e2f14d3de8c0",
+        "text": "vai bem",
+        "timestamp": "2024-09-06T00:35:11.204Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "54af8328f41e8b2cca57a1a5f0177bb5",
+        "text": "zsds",
+        "timestamp": "2024-09-06T00:38:09.612Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "3727229bc3bed6498403c70e04df1dac",
+        "text": "aaqqqqqqqq",
+        "timestamp": "2024-09-06T00:38:59.247Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "ea8557ecdb719e9705147d6e0697fd52",
+        "text": "2222222",
+        "timestamp": "2024-09-06T00:39:10.862Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "6ed8f22648bcf7f50b5332773098cd0d",
+        "text": "3333333",
+        "timestamp": "2024-09-06T00:39:27.398Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "ffd2e2a9d32aad1658123fb5f343a1ff",
+        "text": "rrrr",
+        "timestamp": "2024-09-06T00:40:56.136Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "372545a3015f3de3f6feebaef49776ea",
+        "text": "32",
+        "timestamp": "2024-09-06T00:43:40.805Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "b5c30567713eea3aa64c72334f89684d",
+        "text": "sdssd",
+        "timestamp": "2024-09-06T00:47:14.207Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "faed8c45eceff45b38523d0f497f53a9",
+        "text": "zzzzzxxxzxx",
+        "timestamp": "2024-09-06T00:49:57.922Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "undefined": {
+    "messages": [
+      {
+        "id": "d63fd077d486d8447e43ff36e3f4d2c1",
+        "text": "",
+        "timestamp": "2024-09-02T17:34:16.146Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "66f6087c1bc28860bc45192c990d33f5",
+        "text": "",
+        "timestamp": "2024-09-02T17:35:10.941Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "d9d38be12a3a854e4586da08ed4fa28b",
+        "text": "",
+        "timestamp": "2024-09-02T17:36:37.362Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "962ce5532cca816b117b80660710fc80",
+        "text": "",
+        "timestamp": "2024-09-02T17:38:44.513Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "822a04c4a81d870580080ab593a87310",
+        "text": "",
+        "timestamp": "2024-09-02T17:46:55.799Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "556d08fba65d5a3fe74d86e8c47724a4",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:05.934Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4ac7dd1d95c77658047ead29010853c1",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:09.105Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "65d24374905bb54769f615f6a65d2f45",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:11.809Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "39fcdb02666bd083e54ff2c26f32c593",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:16.712Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "f1201700aa8bbfb4d90902e0b9e0d793",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:30.043Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "a0958372e2d1ac001d675140de885ed7",
+        "text": "",
+        "timestamp": "2024-09-02T17:47:35.231Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "2aac93026ebce8559dc6a22db0208138",
+        "text": "",
+        "timestamp": "2024-09-02T17:49:17.453Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e9c6bd7ec77464cc75b81ba0d79f367a",
+        "text": "",
+        "timestamp": "2024-09-02T17:49:22.353Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "10d62132155d68cb612f971c7b69d36b",
+        "text": "",
+        "timestamp": "2024-09-02T17:49:29.044Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "a3307ee3668c958dc9cd47da6f6bd516",
+        "text": "",
+        "timestamp": "2024-09-02T17:52:01.549Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "d1757dfbc2d2522ed3e52acc50048ca4",
+        "text": "",
+        "timestamp": "2024-09-02T21:07:54.237Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e868edd1e3c735d33a10f07432133d1b",
+        "text": "",
+        "timestamp": "2024-09-02T21:08:00.517Z",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "20a9741b7cee4d0af543ae1753b7fc10",
+        "text": "",
+        "timestamp": "2024-09-02T21:08:13.795Z",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "null": {
+    "messages": [
+      {
+        "id": "3036506501e8969a4a3e1967780a7efe",
+        "text": "ioio",
+        "timestamp": "2024-09-03T20:35:12.141Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "4297b73b0624b57326defe2dc387b861",
+        "text": "dfdfdf",
+        "timestamp": "2024-09-06T00:05:31.130Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "chat2": {
+    "messages": [
+      {
+        "id": "bc137ae2206664c964f79b46fcdf5289",
+        "text": "veja esse vídeo incrível!",
+        "timestamp": "2024-09-05T13:15:51.837Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/bf3a55871af6e74f43106e32d3048d8b.mp4",
+          "type": "video/mp4",
+          "name": "Enviando_um_email_com_Node.js_em_menos_de_12_minutos(360p).mp4"
+        }
+      },
+      {
+        "id": "fa49bd51ee8928f9faa737d181c62d67",
+        "text": "olaa",
+        "timestamp": "2024-09-06T00:03:17.951Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "700739ec62c42bff4bc9e60aaef741ed",
+        "text": "como vai?",
+        "timestamp": "2024-09-06T00:04:42.632Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "7fa55df8f19d02e4d39f5b0a99ed0500",
+        "text": "como vai isoo?",
+        "timestamp": "2024-09-06T00:05:19.323Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  }
+}

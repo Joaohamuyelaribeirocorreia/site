@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <style>
+        .chat { border: 1px solid #ccc; margin: 5px; padding: 10px; }
+        .message { margin: 5px 0; }
+        .read { color: green; }
+        .unread { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Chat App</h1>
+    <div id="chats">
+        <button onclick="joinChat('chat1')">Entrar no Chat 1</button>
+        <button onclick="joinChat('chat2')">Entrar no Chat 2</button>
+        <button onclick="joinChat('chat3')">Entrar no Chat 3</button>
+        <button onclick="joinChat('chat4')">Entrar no Chat 4</button>
+    </div>
+    <div id="chat-container"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        let currentChat = null;
+
+        socket.on('loadChats', (chats) => {
+            // Inicialmente, você pode usar os dados de chats para exibir informações
+			
+        });
+
+        socket.on('newMessage', (message) => {
+            if (currentChat) {
+                const chatDiv = document.getElementById('chat-container');
+                const msgDiv = document.createElement('div');
+                msgDiv.className = 'message ' + (message.read ? 'read' : 'unread');
+                msgDiv.textContent = `${new Date(message.timestamp).toLocaleTimeString()}: ${message.text}`;
+                chatDiv.appendChild(msgDiv);
+            }
+        });
+
+        function joinChat(chatId) {
+            if (currentChat) {
+                socket.emit('leaveChat', currentChat);
+            }
+            currentChat = chatId;
+            socket.emit('joinChat', chatId);
+            document.getElementById('chat-container').innerHTML = `<h2>Chat ${chatId}</h2><div><p><input type="text" id="sms" placeholder="Escreve a sua mensagem aqui"></p></div><button onclick="enviar()">Enviar</button>`;
+        }
+function enviar(){
+
+//if (!document.getElementById("sms").value == " "){
+var texto = document.getElementById("sms").value;
+sendMessage(texto);
+document.getElementById("sms").value = " "
+ 
+//} else {
+//alert("Nenhum texto inserido")
+}
+        function sendMessage(message) {
+            if (currentChat) {
+                socket.emit('sendMessage', { chatId: currentChat, message });
+            }
+        }
+
+        function markAsRead(index) {
+            if (currentChat) {
+                socket.emit('markAsRead', { chatId: currentChat, index });
+            }
+        }
+    </script>
+</body>
+</html>

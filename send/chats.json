@@ -1,0 +1,78 @@
+{
+  "chat7": {
+    "messages": [
+      {
+        "id": "0027eb31ecfaa7fe353f2c2ef7b856b3",
+        "text": "olá! grupo 7",
+        "timestamp": "2024-09-11T20:58:26.074Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "chat11": {
+    "messages": [
+      {
+        "id": "01730cfc321089bc77723d0c1a0096d8",
+        "text": "grupo 11",
+        "timestamp": "2024-09-11T21:03:37.033Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "chat1": {
+    "messages": [
+      {
+        "id": "73681619be1f538b4bb8a9b7ce03c989",
+        "text": "hello",
+        "timestamp": "2024-09-18T06:45:27.111Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "2325e7fd35ad2005b65de9c28da5292d",
+        "text": "",
+        "timestamp": "2024-09-18T06:46:45.483Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/369a14f93398a5ef9aabb35e13b2915e.mp3",
+          "type": "audio/mp3",
+          "name": "3_ETCHI_TCHATILÃ.mp3"
+        }
+      },
+      {
+        "id": "db919fea23fc4e70434683ee0a1370af",
+        "text": "",
+        "timestamp": "2024-09-18T06:48:39.391Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/1ddf78ff6041f4a71bc24c852c150a2e.mp4",
+          "type": "video/mp4",
+          "name": "Input.mp4"
+        }
+      }
+    ],
+    "users": []
+  },
+  "chat2": {
+    "messages": [
+      {
+        "id": "b4d053d2fb827a8a96025b9e4d776894",
+        "text": "hello",
+        "timestamp": "2024-09-18T06:45:27.221Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <input type="text" id="myInput">
+    <div id="output">Texto aqui!</div>
+    <video src="video.mp4" autoplay controls title="myvideo"></video>
+    <script>
+       const input = document.getElementById("myInput");
+        input.addEventListener("keydown", function(event){
+            enviar(event.keyCode)
+         console.log(event.keyCode);
+            //alert(event.keycode);
+            document.getElementById("output").textContent = `Tecla pressionada nome: ${event.key}, código da tecla: ${event.keyCode}`;
+            console.log("saio do input");
+           
+            deletar()
+        })
+        function focar(){
+            document.body.addEventListener("load", function(e){
+                console.log(e.target)
+            })
+        }
+        focar()
+        function deletar(){
+            let cart = document.getElementById("myInput").value;
+            if(cart.length > 0){//inicio do codigo if
+                document.getElementById("myInput").value = "";
+                console.log("Deletado!");
+            }//fim do codigo if
+        }
+        function enviar(codigo){
+            if(codigo === "13"){
+                alert("Enviado: Tecla control e 'e' pressionados ");
+            } else {
+                return console.log(codigo);
+            } 
+        }
+    </script>
+</body>
+</html>

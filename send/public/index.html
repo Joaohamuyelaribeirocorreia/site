@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.ico" rel="icon">
+    <title>Chat App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-color: #f4f4f4;
+        }
+
+        #header {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        #container {
+            display: flex;
+            flex: 1;
+            height: calc(100vh - 40px);
+        }
+
+        #group-buttons {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-right: 1px solid #ccc;
+            width: 150px;
+            box-sizing: border-box;
+        }
+
+        #group-buttons button {
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        #group-buttons button.active {
+            background-color: #0056b3;
+            font-weight: bold;
+        }
+
+        #chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .message {
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            max-width: 70%;
+            position: relative;
+            word-break: break-word;
+        }
+
+        .message.me {
+            background-color: #d3f9d8;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .message.other {
+            background-color: #f1f1f1;
+            text-align: left;
+        }
+
+        .message p {
+            margin: 0;
+            font-size: 12px;
+            color: #666;
+        }
+
+        #username-input, #chat-controls {
+            padding: 10px;
+            background: #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #ccc;
+        }
+
+        #username-input {
+            display: none;
+        }
+
+        #username-input input[type="text"], #chat-controls input[type="text"] {
+            width: calc(100% - 80px);
+            padding: 5px;
+        }
+
+        #chat-controls {
+            display: none;
+        }
+
+        .notification {
+            position: fixed;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            animation: slideInOut 3s forwards;
+        }
+
+        .notification p {
+            margin: 5px 0;
+        }
+
+        @keyframes slideInOut {
+            0% {
+                top: -100px;
+                opacity: 0;
+            }
+            20% {
+                top: 20px;
+                opacity: 1;
+            }
+            80% {
+                top: 20px;
+                opacity: 1;
+            }
+            100% {
+                top: -100px;
+                opacity: 0;
+                filter: blur(1.5px);
+            }
+        }
+
+        .upload-notification {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            display: none;
+        }
+
+        .upload-notification .progress-bar {
+            height: 5px;
+            background: #4caf50;
+            width: 0;
+            transition: width 0.5s;
+        }
+
+        @media (max-width: 500px) {
+            #container {
+                flex-direction: column;
+            }
+
+            #group-buttons {
+                flex-direction: row;
+                overflow-x: auto;
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #ccc;
+            }
+
+            #chat-container {
+                flex: 1;
+                padding: 10px;
+            }
+        }
+
+        @media (min-width: 769px) {
+            #group-buttons {
+                width: 200px;
+            }
+        }
+		input#message-input{
+		width: 100px;
+		}
+    </style>
+</head>
+<body>
+    <div id="header">Chat App</div>
+
+    <div id="container">
+        <div id="group-buttons">
+            <button onclick="joinChat('chat1')" id="chat1">Grupo 1</button>
+            <button onclick="joinChat('chat2')" id="chat2">Grupo 2</button>
+            <button onclick="joinChat('chat3')" id="chat3">Grupo 3</button>
+            <button onclick="joinChat('chat4')" id="chat4">Grupo 4</button>
+            <button onclick="joinChat('chat5')" id="chat5">Grupo 5</button>
+            <button onclick="joinChat('chat6')" id="chat6">Grupo 6</button>
+			<button onclick="joinChat('chat7')" id="chat7">Grupo 7</button>
+			<button onclick="joinChat('chat8')" id="chat8">Grupo 8</button>
+			<button onclick="joinChat('chat7')" id="chat7">Grupo 9</button>
+			<button onclick="joinChat('chat10')" id="chat10">Grupo 10</button>
+			<button onclick="joinChat('chat11')" id="chat11">Grupo 11</button>
+			<button onclick="joinChat('chat12')" id="chat12">Grupo 12</button>
+			<button onclick="joinChat('chat13')" id="chat13">Grupo 13</button>
+			<button onclick="joinChat('chat14')" id="chat14">Grupo 14</button>
+			<button onclick="joinChat('chat15')" id="chat15">Grupo 15</button>
+        </div>
+		
+		<div id="username-input">
+        <label for="username">Seu Nome: </label>
+        <input type="text" id="username" placeholder="Digite seu nome">
+        <button onclick="setUsername()">Salvar Nome</button>
+    </div>
+
+        <div id="chat-container"></div>
+    </div>
+
+    <div id="chat-controls">
+        <input type="file" id="file-input" />
+        <input type="text" id="message-input" placeholder="Digite sua mensagem">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+
+    <div id="upload-notification" class="upload-notification">
+        <div class="progress-bar"></div>
+        <p>Enviando...</p>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        let currentChat = null;
+        let username = localStorage.getItem('username') || '';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (username) {
+                document.getElementById('username-input').style.display = 'none';
+                document.getElementById('chat-controls').style.display = 'flex';
+            } else {
+                document.getElementById('username-input').style.display = 'flex';
+            }
+        });
+
+        function setUsername() {
+            const input = document.getElementById('username');
+            username = input.value.trim();
+            if (username) {
+                localStorage.setItem('username', username);
+                input.disabled = true;
+                document.getElementById('username-input').style.display = 'none';
+                document.getElementById('chat-controls').style.display = 'flex';
+            }
+        }
+
+        socket.on('newMessage', (message) => {
+            if (currentChat) {
+                appendMessage(message);
+                showNotification(message);
+				emitprogress(message);
+            }
+        });
+
+        socket.on('loadChatMessages', (messages) => {
+            const chatDiv = document.getElementById('chat-container');
+            chatDiv.innerHTML = '';
+            messages.forEach(appendMessage);
+            chatDiv.scrollTop = chatDiv.scrollHeight;
+        });
+
+        function appendMessage(message) {
+            const chatDiv = document.getElementById('chat-container');
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `message ${message.sender === username ? 'me' : 'other'}`;
+            const textContent = message.text ? `<div class="text">${message.text}</div>` : '';
+            const fileContent = message.file ? `<div class="file">${renderFile(message.file)}</div>` : '';
+            msgDiv.innerHTML = `${textContent}${fileContent}<p>${message.sender}</p>`;
+            chatDiv.appendChild(msgDiv);
+            chatDiv.scrollTop = chatDiv.scrollHeight;
+        }
+ 
+        function renderFile(file) {
+            if (file.type.startsWith('image/')) {
+                return `<img src="${file.url}" alt="${file.name}" style="max-width: 100%; max-height: 200px;">`;
+            } else if (file.type.startsWith('video/')) {
+                return `<video controls style="max-width: 100%; max-height: 200px;"><source src="${file.url}" type="${file.type}">Your browser does not support the video tag.</video>`;
+            } else if (file.type.startsWith('audio/')) {
+                return `<audio controls style="width: 100%;"><source src="${file.url}" type="${file.type}">Your browser does not support the audio element.</audio>`;
+            } else {
+                return `<a href="${file.url}" download="${file.name}">${file.name}</a>`;
+            }
+        }
+
+                function sendMessage() {
+            const input = document.getElementById('message-input');
+            const fileInput = document.getElementById('file-input');
+            const message = input.value.trim();
+            const file = fileInput.files[0];
+
+            if (message || file) {
+                const formData = new FormData();
+                formData.append('file', file);
+                
+                if (file) {
+                    const uploadNotification = document.getElementById('upload-notification');
+                    uploadNotification.style.display = 'block';
+                    
+                    fetch('/upload', {
+                        method: 'POST',
+                        body: formData
+                    }).then(response => response.json())
+                      .then(data => {
+                          const fileData = {
+                              name: file.name,
+                              type: file.type,
+                              url: data.url
+                          };
+                          const dataToSend = { chatId: currentChat, message, sender: username, file: fileData };
+                          socket.emit('sendMessage', dataToSend);
+                          input.value = '';
+                          fileInput.value = '';
+                          input.focus();
+                      })
+                      .catch(error => {
+                          console.error('Erro ao fazer upload do arquivo:', error);
+                      })
+                      .finally(() => {
+                          uploadNotification.style.display = 'none';
+                      });
+                } else {
+                    const dataToSend = { chatId: currentChat, message, sender: username };
+                    socket.emit('sendMessage', dataToSend);
+                    input.value = '';
+                    input.focus();
+                }
+            }
+        }
+
+        function joinChat(chatId) {
+            if (currentChat !== chatId) {
+                currentChat = chatId;
+                const buttons = document.querySelectorAll('#group-buttons button');
+                buttons.forEach(button => button.classList.remove('active'));
+                document.getElementById(chatId).classList.add('active');
+                socket.emit('joinChat', chatId);
+            }
+        }
+
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.innerHTML = `<p>${message.sender}</p><p>${message.text}</p>`;
+            document.body.appendChild(notification);
+            setTimeout(() => {
+                notification.remove();
+            }, 3000);
+        }
+        function emitprogress(Socket){
+            let progress = 0;
+            const interval = setInterval(function(){
+                progress += 10;
+                socket.emit("estado", progress);
+                if (progress >= 100){
+                    clearInterval(interval);
+                }
+            }, 10)
+			progresso()
+        };
+      function progresso(){
+	  let valor = 0;
+            socket.on("estado", function(progress){
+                valor = progress;
+                console.log(progress) 				
+            });
+            return valor;
+			if (valor === 100){
+			valor = null;
+			}
+        }
+		function enviarPC(){
+		const input = document.getElementById("message-input");
+        input.addEventListener("focus", function(){
+           console.log("Ganhou foco!")
+		   document.getElementById("message-input").addEventListener("keydown", function(event){
+         if (event.keyCode == 13 && event.keyCode == 90){
+		 console.log("Tecla enter pressionada!")
+		 }
+        })
+        })
+		}
+       enviarPC();
+    </script>
+</body>
+</html>

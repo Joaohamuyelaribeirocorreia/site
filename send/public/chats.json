@@ -1,0 +1,474 @@
+{
+  "chat1": {
+    "messages": [
+      {
+        "id": "db13df44f2e7e503b93946ccd57b7031",
+        "text": "ouve o novo benga",
+        "timestamp": "2024-08-30T00:11:34.521Z",
+        "sender": "Hamuyela",
+        "read": true,
+        "file": {
+          "url": "/file_upload_message/f7f1d3cea6fffdcd08d50571df1d5e84.mp3",
+          "type": "audio/mpeg",
+          "name": "Ganan Boy - Nostalgia.mp3"
+        }
+      },
+      {
+        "id": "26fbc3630985215992ca6b08a5007dd7",
+        "text": "gello",
+        "timestamp": "2024-08-30T00:54:55.212Z",
+        "read": false,
+        "file": null,
+        "sender": "jok"
+      },
+      {
+        "id": "0b2c4a43bd2a4bc08b8e7a5d5f4d42af",
+        "text": "iuuuuuuuu",
+        "timestamp": "2024-08-30T00:55:05.063Z",
+        "read": false,
+        "file": null,
+        "sender": "jok"
+      },
+      {
+        "id": "6ab5b57158705b6c5e03b710c5fa4718",
+        "text": "dê uma olhada",
+        "timestamp": "2024-08-30T01:04:52.186Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/eaaa1b09c965669cbf70c8e77ade76b9.mp3",
+          "type": "audio/mpeg",
+          "name": "Alec_Benjamin_-_Let_Me_Down_Slowly_(Letra)(128k).mp3"
+        }
+      },
+      {
+        "id": "fdb1b93c06ab8b4f262430f96bdd07cf",
+        "text": "como trabalhar com mysql veja esse video com boa explicação",
+        "timestamp": "2024-08-30T01:06:57.691Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/8a579151e491314d92ab8038e7516d09.mp4",
+          "type": "video/mp4",
+          "name": "Como_usar_Node.js_com_MySQL_(360p).mp4"
+        }
+      },
+      {
+        "id": "10c87ebd036e4ff3b76c078d9aabc888",
+        "text": "como",
+        "timestamp": "2024-08-30T01:10:02.523Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "0580502ee7a170281ba2d7dcc47b969c",
+        "text": "dd",
+        "timestamp": "2024-08-30T01:20:41.263Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "79204fdb5514a7562e22381d6a87d540",
+        "text": "",
+        "timestamp": "2024-08-30T01:20:55.956Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/6615d772dbfdc4dc44035a326e8899e9.dll",
+          "type": "application/x-msdownload",
+          "name": "message_center_win8.dll"
+        }
+      },
+      {
+        "id": "2e71b1389123a5ba502d8ba8a3a5bf38",
+        "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "timestamp": "2024-08-30T01:21:53.778Z",
+        "sender": "Carlos",
+        "read": true,
+        "file": null
+      },
+      {
+        "id": "90a2e07a73f881162b71c4b2934b1113",
+        "text": "erreeee",
+        "timestamp": "2024-08-30T01:22:09.746Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "ba6d67a5e899a5855e69d60e813c4f55",
+        "text": "estai alguem?",
+        "timestamp": "2024-08-30T07:50:37.088Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "cc678010ba37c6cd27badaeec743dbf8",
+        "text": "Ouve o benga do Gerilson Israel",
+        "timestamp": "2024-08-31T07:37:33.792Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/8aba66ed7aa41c2f4e50edfeac41977e.mp3",
+          "type": "audio/mp3",
+          "name": "Mi_Amor_-_Rayvanny_X_Gerilson_Insrael__Official_Music_Video_(256k).mp3"
+        }
+      },
+      {
+        "id": "5d07375e514b0961ddd214657ddebba7",
+        "text": "ouve esse big",
+        "timestamp": "2024-08-31T08:32:19.359Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/bec8793924bfa15c86a29e0030824068.mp4",
+          "type": "video/mp4",
+          "name": "Anderson_Mário_-_Waka_Waka_(Vídeo_Oficial)(360p).mp4"
+        }
+      },
+      {
+        "id": "185f6b92f49ab9c7ecc73dcc8d733dad",
+        "text": "depois me diz como é que?",
+        "timestamp": "2024-08-31T08:42:38.652Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "3531e3fb7a5eecb1bf784b709415a51c",
+        "text": "",
+        "timestamp": "2024-08-31T09:50:29.697Z",
+        "read": false,
+        "file": {}
+      }
+    ],
+    "users": []
+  },
+  "chat2": {
+    "messages": [
+      {
+        "id": "5e0280de91a726a96b94fa6c5440feb6",
+        "text": "rival",
+        "timestamp": "2024-08-30T01:10:27.610Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "dd3239afc2555e1874e723a8897ccba3",
+        "text": "oi como vai isso?",
+        "timestamp": "2024-08-30T01:11:03.454Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "318353b2fae737a4cde9a655f06c4af6",
+        "text": "tome",
+        "timestamp": "2024-08-30T01:12:23.600Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/0b0b40dbe3304967fa246e3c89cd9008.bat",
+          "type": "",
+          "name": "a.bat"
+        }
+      },
+      {
+        "id": "010d63e5bbd69cebc7a08b4024f323b9",
+        "text": "instale isso!",
+        "timestamp": "2024-08-30T01:13:49.355Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/6a2bed2dc79a21a5474b0fdce818d072.exe",
+          "type": "application/x-msdownload",
+          "name": "opera.exe"
+        }
+      },
+      {
+        "id": "67417238dda8028588893313c6ac3c13",
+        "text": "",
+        "timestamp": "2024-08-30T01:15:38.195Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/63d853366fee4a9bd719b92380467166.mp4",
+          "type": "video/mp4",
+          "name": "Como_saber_a_senha_do_WiFi_com_linguagem_de_programação__Python_(720p).mp4"
+        }
+      },
+      {
+        "id": "f3ac9566b1080aaaffdf3422abd29a81",
+        "text": "gostei do video",
+        "timestamp": "2024-08-30T01:17:10.599Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "74acae0dc54ba99392810f9a084edd2a",
+        "text": "poiss é!",
+        "timestamp": "2024-08-30T01:19:26.156Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "e2ab68788078151ca71d8da4e51aed6d",
+        "text": "te encontrei",
+        "timestamp": "2024-08-30T07:48:52.691Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "7ca94a3ab3e180135f332f92b4f1acdd",
+        "text": "yha!",
+        "timestamp": "2024-08-30T07:49:18.772Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "3a5bf2dc60260dde8656872c7527f09c",
+        "text": "estou atrasado!",
+        "timestamp": "2024-08-30T14:31:36.224Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "48a99855ba3d79ea03b135436fe6a6e4",
+        "text": "Ouve esse afro-house (mix)",
+        "timestamp": "2024-08-30T14:33:08.039Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/7d6350259577bac3c7743e9242d0ee49.mp3",
+          "type": "audio/mp3",
+          "name": "01 Afro House MIX 2023 ! Vais Gostar.mp3"
+        }
+      },
+      {
+        "id": "3ca410bdc7104c91dfeede459a9353cc",
+        "text": "muito fixe",
+        "timestamp": "2024-08-31T08:43:18.636Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "chat3": {
+    "messages": [
+      {
+        "id": "61c5bddbbcbb4d204adb2f070c2379b3",
+        "text": "como",
+        "timestamp": "2024-08-30T14:34:33.350Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "1beb4b4f1a4155cc030490d644742f3d",
+        "text": "preciso de novas músicas alguem tem aí?",
+        "timestamp": "2024-08-31T08:44:11.946Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "569153cf121241d901982f883a1ad09b",
+        "text": "ficha de inscrição",
+        "timestamp": "2024-08-31T08:45:33.335Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/41ed991fe84de8702a3a13ec8123d17e.pdf",
+          "type": "application/pdf",
+          "name": "ficha-candidato-6887I724.pdf"
+        }
+      },
+      {
+        "id": "1554be95fa2755056eebdc894f2d14ef",
+        "text": "",
+        "timestamp": "2024-08-31T08:46:10.475Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/7fa7e76c48f6c2f814e6e7abdf05b659.jpg",
+          "type": "image/jpeg",
+          "name": "DSC_0000001.jpg"
+        }
+      },
+      {
+        "id": "0e2a917106d6bb7fdb4850e22e192003",
+        "text": "o que acham do meu logotipo?",
+        "timestamp": "2024-08-31T08:46:47.115Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/e8eeea6634ed8b450e6972e5b3a857e8.png",
+          "type": "image/png",
+          "name": "H_logo.png"
+        }
+      },
+      {
+        "id": "7db4554a1f1a260e5c37afea4f044111",
+        "text": "ainda tem mais...",
+        "timestamp": "2024-08-31T08:48:12.750Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/dc731781f80b9a8f05eabad27bd4657c.png",
+          "type": "image/png",
+          "name": "H_logo_Black_centro_de_ciencia_hamuyela.png"
+        }
+      },
+      {
+        "id": "70ae63c65148abb90b5a0714d5189fe0",
+        "text": "",
+        "timestamp": "2024-08-31T08:48:26.801Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "/file_upload_message/c662418badb060e078590ea5a6958924.png",
+          "type": "image/png",
+          "name": "HAMUYELA.png"
+        }
+      }
+    ],
+    "users": []
+  },
+  "null": {
+    "messages": [
+      {
+        "id": "2e5f9c4e971df9fe332f674988d1b491",
+        "text": "mmmm",
+        "timestamp": "2024-08-30T14:47:21.183Z",
+        "sender": "Carlos",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  },
+  "undefined": {
+    "messages": [
+      {
+        "id": "b3bab85ec5b9b0e3e2f760b3df0d87b5",
+        "text": "",
+        "timestamp": "2024-08-31T13:19:38.409Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "fd454b3e872785e979bca129b115d99f",
+        "text": "",
+        "timestamp": "2024-08-31T14:36:18.973Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "2b2f5511e81335333fbf744aa9a517da",
+        "text": "",
+        "timestamp": "2024-08-31T14:36:27.583Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "da7ff7337621457d1abaa5a6cf83655e",
+        "text": "",
+        "timestamp": "2024-08-31T14:45:31.003Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "bc52aa048a7082c82a48394e9a92b9dc",
+        "text": "",
+        "timestamp": "2024-08-31T23:39:38.377Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "dbc21b8f23c098778ac0a7e1de3d4b3c",
+        "text": "",
+        "timestamp": "2024-09-01T00:08:26.771Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "3a4a94cf1175cf7e8eca2333d6e2ab79",
+        "text": "",
+        "timestamp": "2024-09-01T00:09:01.596Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "59910ef818ac220f506e573c698a226e",
+        "text": "",
+        "timestamp": "2024-09-01T00:09:20.033Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "67981546cc3293f13878e4238896ba99",
+        "text": "",
+        "timestamp": "2024-09-01T00:11:29.565Z",
+        "sender": "jok",
+        "read": false,
+        "file": {
+          "url": "blob:http://localhost:3000/7f708e37-055b-4edc-b893-80093fe7ab5f",
+          "type": "audio/mpeg",
+          "name": "Anderson Mário - Chama Todos_073408.mp3"
+        }
+      },
+      {
+        "id": "0787606b56b252aa9f5f0a3b718aeb3f",
+        "text": "",
+        "timestamp": "2024-09-01T00:42:54.850Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "11e77924eab35c363f28f450865add77",
+        "text": "",
+        "timestamp": "2024-09-01T00:43:06.071Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "6e646facd3d0339c476b048fc0cb57b5",
+        "text": "",
+        "timestamp": "2024-09-01T19:52:52.085Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      },
+      {
+        "id": "40f0bd32abec925b235ab8578250e4f8",
+        "text": "",
+        "timestamp": "2024-09-01T19:54:36.650Z",
+        "sender": "jok",
+        "read": false,
+        "file": null
+      }
+    ],
+    "users": []
+  }
+}
