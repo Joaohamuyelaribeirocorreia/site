@@ -15,7 +15,12 @@ const UPLOAD_DIR = path.join(__dirname, 'public', 'file_upload_message');
 
 // Middleware para servir arquivos estáticos
 app.use(express.static('public'));
-
+app.use((req, res) => {
+  res.status(404).send('Página não encontrada');
+});
+app.get("/",(req, res) => {
+  res.status(200).send('"Bem-vindo!');
+});
 // Middleware para lidar com uploads de arquivos
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
