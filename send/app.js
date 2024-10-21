@@ -15,12 +15,9 @@ const UPLOAD_DIR = path.join(__dirname, 'public', 'file_upload_message');
 
 // Middleware para servir arquivos estáticos
 app.use(express.static('public'));
-app.use((req, res) => {
-  res.status(404).send('Página não encontrada');
-});
-app.get("/",(req, res) => {
-  res.status(200).send('"Bem-vindo!');
-});
+
+app.get('/', (req, res) => { res.sendFile(path.join(__dirname, 'public', 'index.html')); });
+
 // Middleware para lidar com uploads de arquivos
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -131,7 +128,5 @@ io.on('connection', (socket) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
-});
+const PORT = process.env.PORT || 3000; 
+server.listen(PORT, () => { console.log(`Servidor rodando na porta ${PORT}`); });
